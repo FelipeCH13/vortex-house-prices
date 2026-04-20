@@ -1,0 +1,39 @@
+Variables Categoricas Codificadas en Numericas
+-MSSubClass, tipo de vivienda
+-OverallQual, calidad de los materiales y finalizacion de la obra
+-OVerallCond, Rate condiciones de la casa
+
+Variables con demasiados subtipos
+-MSSubClass
+-Neighborhood
+-Exterior1st
+-Exterior2nd
+
+Variables Relacionadas con Calidad o condicion
+-HouseStyle
+-OverallQual
+-OverallCond
+-ExterQual
+-ExterCond
+-BsmtQual
+-BsmtCond
+-GarageFinish
+-GarageQual
+-GarageCond
+-PoolQC
+-FireplaceQu
+-SaleCondition
+-LowQualFinSF
+-KitchenQual
+-Fence
+-PoolQC
+
+Variables Adicionales:
+-MSZoning
+-LotFrontage
+-LotArea
+-Utilities
+-YearBuilt
+-YearRemodAdd
+-MasVnrArea
+-Functional
