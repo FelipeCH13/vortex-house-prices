@@ -39,3 +39,31 @@ Variables Adicionales:
 -Functional
 
 
+1. Ordinal Encoding        → variables de calidad con jerarquía
+2. One-Hot Encoding        → variables nominales sin orden
+3. Binary Encoding         → CentralAir
+4. Ordinal Encoding agrupado → Neighborhood
+5. Eliminar variables redundantes → las identificadas por multicolinealidad
+6. Crear nuevas features   → Age, YearsSinceRemod
+7. Guardar dataset final   → train_features.csv
+
+
+Fase 4 — Baseline Model
+    → Linear Regression con las variables seleccionadas
+    → Evaluación con RMSE y R²
+    → K-Fold Cross Validation
+
+Fase 5 — Modelo Avanzado
+    → XGBoost o Ridge Regression
+    → Comparación contra baseline
+    → Evaluación con mismo RMSE benchmark
+
+Fase 6 — Interpretación
+    → SHAP values — qué variables impactan más el precio
+    → Feature importance
+    → Conclusiones de negocio
+
+Fase 7 — Documentación final
+    → Notion
+    → README en GitHub
+    → Publicar notebook en Kaggle
